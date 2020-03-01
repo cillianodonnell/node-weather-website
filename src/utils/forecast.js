@@ -26,9 +26,9 @@ const forecast = ( latitude, longitude, callback ) =>
                       + ' degrees out. There is a '
                       + precip_probability + '% chance of rain.'
                       + 'Highest temperature today is '
-                      +  body.daily.data[0].temperatureHigh
-                      + '. Lowest temperature is '
-                      + body.daily.data[0].temperatureLow );
+                      +  body.daily.data[0].temperatureHigh + ' degrees '
+                      + 'and lowest temperature is '
+                      + body.daily.data[0].temperatureLow + ' degrees.' );
         }
     });
 }
